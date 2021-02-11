@@ -55,7 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\EnemyFollow.cs" />
+     <Compile Include="Assets\Level\Scripts\EnemyFollow.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/henry/Desktop/Cooked-Over/Juego Taller 5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
