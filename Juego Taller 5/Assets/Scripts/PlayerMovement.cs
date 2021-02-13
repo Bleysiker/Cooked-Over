@@ -24,6 +24,15 @@ public class PlayerMovement : MonoBehaviour
     {
         Move();
         Dash();
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            HealthSystem.Instance.TakeDamage(10);
+        }
     }
 
     public void Move()
@@ -93,4 +102,6 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+
+
 }
