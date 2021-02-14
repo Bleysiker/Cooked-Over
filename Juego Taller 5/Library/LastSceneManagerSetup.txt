@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/TestChelo.unity
+=======
+- path: Assets/Scenes/SampleScene.unity
+>>>>>>> parent of 243482c... Salud y enemigo de prueba
   isLoaded: 1
   isActive: 1
   isSubScene: 0
