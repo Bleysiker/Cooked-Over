@@ -11,6 +11,8 @@ public class EnemyController1 : MonoBehaviour
     private float maxRange;
     [SerializeField]
     private float minRange;
+    [SerializeField]
+    private bool meleeEnemy;
 
     void Start()
     {
@@ -22,13 +24,17 @@ public class EnemyController1 : MonoBehaviour
     {
         if (Vector3.Distance(target.position, transform.position) <= maxRange && Vector3.Distance(target.position, transform.position) >= minRange)
         {
-            FollowPlayer();
+            FollowPlayer(1);
+        }
+        else if(Vector3.Distance(target.position, transform.position) < minRange && !meleeEnemy)
+        {
+            FollowPlayer(-1);
         }
 
     }
 
-    public void FollowPlayer()
+    public void FollowPlayer(float a)
     {
-        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, a*speed * Time.deltaTime);
     }
 }
