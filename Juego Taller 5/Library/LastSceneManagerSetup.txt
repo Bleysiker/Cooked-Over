@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleLevel02.unity
+- path: Assets/Scenes/Chelo_tests.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
