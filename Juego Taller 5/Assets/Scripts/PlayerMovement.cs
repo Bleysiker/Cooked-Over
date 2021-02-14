@@ -26,6 +26,14 @@ public class PlayerMovement : MonoBehaviour
         Dash();
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            HealthSystem.Instance.TakeDamage(10);
+        }
+    }
+
     public void Move()
     {
         input = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
