@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 408996419}
   - component: {fileID: 408996418}
+  - component: {fileID: 408996420}
   m_Layer: 0
   m_Name: Explosive_Cococktail
   m_TagString: Untagged
@@ -202,6 +203,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408996420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408996417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bf5987ae6b04cb49428a57f3b56209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  maxRange: 0.7
+  minRange: 0.2
+  meleeEnemy: 1
 --- !u!1 &566047301
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566047303}
   - component: {fileID: 566047302}
+  - component: {fileID: 566047304}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -283,6 +301,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &566047304
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566047301}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.16}
+  m_EdgeRadius: 0
 --- !u!1 &743473085
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +337,8 @@ GameObject:
   m_Component:
   - component: {fileID: 743473087}
   - component: {fileID: 743473086}
+  - component: {fileID: 743473088}
+  - component: {fileID: 743473089}
   m_Layer: 0
   m_Name: Crying_Onion
   m_TagString: Untagged
@@ -364,6 +410,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &743473088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743473085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bf5987ae6b04cb49428a57f3b56209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  maxRange: 0.7
+  minRange: 0.5
+  meleeEnemy: 0
+--- !u!114 &743473089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743473085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7548d3a4063c8f0488a0044260469617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starTimeBtwShots: 1
+  projectile: {fileID: 3044586836478782533, guid: cd8fa0165567c5a4e867bbe2923e7d51,
+    type: 3}
 --- !u!1 &896447185
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +451,8 @@ GameObject:
   m_Component:
   - component: {fileID: 896447187}
   - component: {fileID: 896447186}
+  - component: {fileID: 896447188}
+  - component: {fileID: 896447189}
   m_Layer: 0
   m_Name: Monstruoustew
   m_TagString: Untagged
@@ -445,6 +524,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &896447188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896447185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bf5987ae6b04cb49428a57f3b56209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  maxRange: 0.5
+  minRange: 0.3
+  meleeEnemy: 0
+--- !u!114 &896447189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896447185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7548d3a4063c8f0488a0044260469617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starTimeBtwShots: 1.25
+  projectile: {fileID: 7158845427026027616, guid: c29310912db38c745adb889648e845bc,
+    type: 3}
 --- !u!1 &1351479006
 GameObject:
   m_ObjectHideFlags: 0
