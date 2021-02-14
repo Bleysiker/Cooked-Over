@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{BEB97D31-944B-9043-5486-02537F482660}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Level/Scripts/EnemyController1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Level/Scripts/HurtPlayer.cs">
     <Files>
-      <File FileName="Assets/Level/Scripts/EnemyController2.cs" Line="5" Column="29" />
-      <File FileName="Assets/Level/Scripts/EnemyController1.cs" Line="5" Column="30" />
+      <File FileName="Assets/Level/Scripts/HurtPlayer.cs" Line="7" Column="5" />
+      <File FileName="../../../../Downloads/05 2D_melee_combat_enemy - Part 2/Assets/Scripts/Enemy_behaviour.cs" Line="51" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Level" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="EnemyController1.cs" selected="True" />
+                  <Node name="HurtPlayer.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
