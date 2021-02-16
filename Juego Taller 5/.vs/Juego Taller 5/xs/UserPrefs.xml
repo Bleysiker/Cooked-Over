@@ -1,28 +1,13 @@
 ﻿<Properties StartupConfiguration="{BEB97D31-944B-9043-5486-02537F482660}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Level/Scripts/HurtPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Level/Scripts/HealthSystem.cs">
     <Files>
-      <File FileName="Assets/Level/Scripts/HurtPlayer.cs" Line="7" Column="5" />
-      <File FileName="../../../../Downloads/05 2D_melee_combat_enemy - Part 2/Assets/Scripts/Enemy_behaviour.cs" Line="51" Column="20" />
+      <File FileName="Assets/Level/Scripts/HealthSystem.cs" Line="77" Column="16" />
+      <File FileName="Assets/Level/Scripts/PlayerMovement.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Juego Taller 5" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Level" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="HurtPlayer.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5445e5c9-ec62-4d18-a507-ebb8b5504d5d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="780f414e-8cdd-40d5-b69a-e69a0d76c09b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
